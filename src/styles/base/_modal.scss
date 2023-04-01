@@ -1,0 +1,135 @@
+@mixin lg {
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
+}
+@mixin lgm {
+    @media only screen and (max-width: 768px) {
+        @content;
+    }
+}
+// Modal
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900&display=swap');
+@keyframes move {
+    0% {
+        top: -50px;
+    }
+    50% {
+        top: -60px;
+    }
+    100% {
+        top: -50px;
+    }
+}
+@-webkit-keyframes move {
+    0% {
+        top: -50px;
+    }
+    50% {
+        top: -60px;
+    }
+    100% {
+        top: -50px;
+    }
+}
+@-moz-keyframes move {
+    0% {
+        top: -50px;
+    }
+    50% {
+        top: -60px;
+    }
+    100% {
+        top: -50px;
+    }
+}
+.modal_react {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal_react__dialog {
+    background-color: transparent;
+    max-width: 1000px;
+    border-radius: 10px;
+    .title_modal {
+        border-bottom: solid 1px #e1e1e1;
+        margin: 0 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .modal_container {
+        padding: 0 6rem;
+        text-align: center;
+        @include lgm {
+        padding: 0 1rem;
+        }
+        ul {
+        margin-top: 0;
+        margin-bottom: 3rem;
+        li {
+            display: flex;
+            align-items: center;
+            padding: 1rem 0;
+            img {
+            max-width: 60px;
+            }
+            p {
+            margin-left: 1.5rem;
+            font-size: 17px;
+            }
+        }
+        }
+    }
+    .modal_question {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        p {
+        max-width: 280px;
+        }
+    }
+    .modal_container_buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 3rem;
+        button {
+        cursor: pointer;
+        border-radius: 18px;
+        border: 2px solid;
+        font-size: 17px;
+        width: 150px;
+        background-color: transparent;
+        }
+        button:first-of-type {
+        color: #CF4039;
+        padding: 11px 0;
+        }
+        button:last-of-type {
+        color: #1C3B5A;
+        font-weight: 700;
+        }
+    }
+}
+.modal_react__dialog__button_close {
+    float: right;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    margin-right: 26px;
+    margin-top: 9px;
+}
+.modal_react__dialog__children {
+    padding-top: 20px;
+}
+.modal_react_open {
+    display: grid;
+}

@@ -1,0 +1,373 @@
+.bg-home {
+    background: url(#{$url}/bg-quees.png)  50% 100% no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.benefits {
+    background: url(#{$url}/bg-beneficios.png) 50% 100% / cover no-repeat;
+}
+.whatIs {
+    background: url(#{$url}/bg-quees.png) 50% 100% / cover no-repeat;
+}
+.function {
+    background: url(#{$url}/bg-funciona.png) 50% 100% / cover no-repeat;
+}
+.pharmacy {
+    background: url(#{$url}/bg-farmacias.png) 50% 100% / cover no-repeat;
+}
+.discounts {
+    background: url(#{$url}/bg-descuentos.png) 50% 100% / cover no-repeat;
+}
+
+@media (min-width: 768px) {
+    .bg-main {
+    height: 70vh;
+    padding-inline: 3.5rem;
+    }
+}
+
+.logo-nuevoyo {
+    max-width: 10rem;
+    width: 100%;
+}
+.nav-item {
+    p {
+        margin: 0;
+    }
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #482e80;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgba(0,0,0,.7);
+}
+
+.welcome-text {
+    font-size: var(--step-3);
+}
+
+.logo-nuevoyo-home {
+    width: 100%;
+    max-width: 25rem;
+}
+
+@media (min-width: 768px) {
+    .navbar-light .navbar-nav .nav-link.active.quees {
+    border-radius: 1rem;
+    }
+    .navbar-light .navbar-nav .nav-link.active.discount {
+    border-radius: 1rem 1rem 1rem 0rem;
+    }
+    .navbar-light .navbar-nav .nav-link.active {
+    border-radius: 1rem 1rem 0rem 0rem;
+    }
+    .welcome-text {
+    font-size: var(--step-5);
+    }
+}
+
+.mw-section {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+.btn-siguiente {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    left: 94%;
+    cursor: pointer;
+}
+.btn-anterior {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    right: 94%;
+    cursor: pointer;
+}
+.beneficios .btn-siguiente,
+.beneficios .btn-anterior {
+    height: 50px;
+    width: 80px;
+}
+
+.title-beneficios {
+    font-size: var(--step-1);
+    margin-bottom: 2rem;
+}
+
+#funciona ol {
+    padding-left: 0rem;
+    list-style-type: none;
+}
+
+#funciona ol li {
+    padding-left: 4rem;
+    font-size: var(--step-1);
+    color: #fff;
+    line-height: 1;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+#funciona ol li:nth-child(1) {
+    background: url(#{$url}/first.png) no-repeat center left;
+    background-size: 3rem 3rem;
+}
+
+#funciona ol li:nth-child(2) {
+    background: url(#{$url}/second.png) no-repeat center left;
+    background-size: 3rem 3rem;
+    padding-block: 1rem;
+}
+
+#funciona ol li:nth-child(3) {
+    background: url(#{$url}/third.png) no-repeat center left;
+    background-size: 3rem 3rem;
+}
+
+#funciona ol li:last-child {
+    background: url(#{$url}/four.png) no-repeat center left;
+    background-size: 3rem 3rem;
+}
+
+.handleclic {
+    width: 3rem;
+    padding-block: 2rem;
+}
+
+.list-farm {
+    // list-style-image: url(#{$url}/bullet.png);
+    list-style: none;
+    display: inline-block;
+    // padding-left: 6rem;
+}
+
+.list-farm li {
+    padding-bottom: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    .img-fluid {
+        width: 200px;
+    }
+    .img-fluid.img-bg {
+        background: #fff;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        width: 250px;
+    }
+    .container-i {
+        display: flex;
+        i {
+            color: white;
+            font-size: 40px;
+            padding: 0 1rem;
+        }
+        .bi-globe2::before {
+            background-color: white;
+            border-radius: 50%;
+            color: #1e72b9;
+            margin-inline: 0.5rem;
+        }
+    }
+}
+
+ul[data-id="education"] li {
+    list-style: none;
+}
+
+ul[data-id="education"] li::before {
+    content: "\2022";
+    color: #0097d1;
+    display: inline-block;
+    width: 1.5rem;
+    margin-left: -2rem;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+ul[data-id="beneficiosPaciente"] li {
+    list-style: none;
+}
+
+ul[data-id="beneficiosPaciente"] li::before {
+    content: "\2022";
+    color: #e78420;
+    display: inline-block;
+    width: 1.5rem;
+    margin-left: -2rem;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+ul[data-id="DescountPromo"] li {
+    list-style: none;
+}
+
+ul[data-id="DescountPromo"] li::before {
+    content: "\2022";
+    color: #de2f80;
+    display: inline-block;
+    width: 1.5rem;
+    margin-left: -2rem;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.home-form {
+    display: flex;
+    justify-content: space-around;
+    width: 80% !important;
+}
+
+.home-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.home-footer img {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .title-beneficios {
+    font-size: var(--step-3);
+    }
+    .home-footer img {
+    width: 100%;
+    }
+}
+
+.accordion-button.medic-accodion,
+.accordion-button.medic-accodion:not(.collapsed) {
+    color: white;
+    background: #443280;
+}
+.accordion-button.medic-accodion::after {
+    background: none;
+}
+
+/* Modales */
+.title-user {
+    letter-spacing: 0.15em;
+    font-family: "APIS";
+    font-weight: 900;
+    font-size: var(--step-2);
+}
+
+.text-gray-80 {
+    color: #949494;
+}
+
+.modal-content ul.suggestions {
+    position: absolute;
+    top: 55%;
+    left: 9%;
+    background: rgba(227, 227, 227, 0.7);
+    list-style: none;
+    padding-left: 0rem;
+    text-align: start;
+    width: 198px;
+}
+
+.modal-content ul.suggestions li {
+    padding: 0.5rem 1rem;
+    color: #7f7f7f;
+    text-transform: uppercase;
+}
+
+.bg-patient,
+.bg-medic {
+    position: relative;
+    width: 50%;
+}
+
+.bg-patient::before,
+.bg-medic::before {
+    content: "";
+    position: absolute;
+    width: 21rem;
+    height: 21rem;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+@media (min-width: 768px) {
+    .title-user {
+    font-size: var(--step-3);
+    }
+    .bg-patient::before,
+    .bg-medic::before {
+    width: 35rem;
+    height: 35rem;
+    }
+}
+
+.bg-patient::before {
+    background: #b0c530;
+}
+
+.bg-medic::before {
+    background: #e58423;
+}
+
+.paciente,
+.medico {
+    filter: grayscale(1);
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.paciente:hover,
+.medico:hover {
+    filter: grayscale(0);
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+    max-width: 600px;
+    }
+
+    .title-user {
+    font-size: var(--step-4);
+    }
+}
+#choose-medic-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Flujo medicos */
+.selector-medical-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.selector-medical-container div {
+    background-color: white;
+    text-align: center;
+}
+.selector-title {
+    color: white;
+    background-color: #443280;
+    padding: 2rem;
+    font-size: 27px;
+    margin: 0;
+}
+#collapseOne, #collapseTwo {
+    position: sticky;
+}

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.56e1873f.css",
+    "main.js": "/static/js/main.a659161c.js",
+    "static/media/bg-descuentos.png": "/static/media/bg-descuentos.a749458d87fd2ce1bf26.png",
+    "static/media/bg-quees.png": "/static/media/bg-quees.dc728b0a7d216ab51698.png",
+    "static/media/modal-title-back-04.png": "/static/media/modal-title-back-04.ebad03b0370d1311ce6e.png",
+    "static/media/bg-beneficios.png": "/static/media/bg-beneficios.d3badc24a691d0bba219.png",
+    "static/media/modal-title-back-03.png": "/static/media/modal-title-back-03.1dc0ca93f354d7871d56.png",
+    "static/media/bg-funciona.png": "/static/media/bg-funciona.4b576b81dafbff1e8dd6.png",
+    "static/media/modal-title-back-06.png": "/static/media/modal-title-back-06.fd13002b978433382b1f.png",
+    "static/media/Apis-Black.ttf": "/static/media/Apis-Black.224aea625f623cfde188.ttf",
+    "static/media/Apis-Bold.ttf": "/static/media/Apis-Bold.d80e481b616cec6f3d1a.ttf",
+    "static/media/Apis-Light.ttf": "/static/media/Apis-Light.1d017626d62b4883af33.ttf",
+    "static/media/bg-farmacias.png": "/static/media/bg-farmacias.ce263f0e6c6ce6300e14.png",
+    "static/media/modal-title-back-07.png": "/static/media/modal-title-back-07.34fdd7461874ec90e4c9.png",
+    "static/media/modal-title-back-05.png": "/static/media/modal-title-back-05.b0b679b6a38106fefb62.png",
+    "static/media/banner-dieta.png": "/static/media/banner-dieta.54e290d7770ed86916ea.png",
+    "static/media/modal-title-back.jpeg": "/static/media/modal-title-back.ef7fa05e5a18740e2b51.jpeg",
+    "static/media/bg-dash-med.png": "/static/media/bg-dash-med.6a84bc30f4b736e436ae.png",
+    "index.html": "/index.html",
+    "main.56e1873f.css.map": "/static/css/main.56e1873f.css.map",
+    "main.a659161c.js.map": "/static/js/main.a659161c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56e1873f.css",
+    "static/js/main.a659161c.js"
+  ]
+}

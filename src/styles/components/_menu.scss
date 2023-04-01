@@ -1,0 +1,39 @@
+details {
+    position: relative;
+    summary {
+        color: white;
+    }
+    ol {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        background-color: white;
+        border-radius: 8px;
+        padding: 0;
+        list-style: none;
+        padding-top: 0.5rem;
+        border: 1px solid #e1e1e1;
+        z-index: 6;
+        li {
+            width: 190px;
+            padding: 5px 0px 5px 25px;
+        }
+        li:hover {
+            background-color: #e9ecef;
+        }
+        hr {
+            margin: 10px 0;
+            background-color: #e1e1e1;
+        }
+        li:last-of-type {
+            margin-bottom: 10px;
+        }
+        .current {
+            font-weight: 600;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23292b2c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 1rem top 0.6rem;
+            background-size: .75rem .75rem;
+        }
+    }
+}

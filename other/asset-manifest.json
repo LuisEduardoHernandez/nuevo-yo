@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f30fb26.css",
+    "main.js": "/static/js/main.684906e5.js",
+    "static/media/modal-title-back-04.png": "/static/media/modal-title-back-04.ebad03b0370d1311ce6e.png",
+    "static/media/modal-title-back-03.png": "/static/media/modal-title-back-03.1dc0ca93f354d7871d56.png",
+    "static/media/modal-title-back-06.png": "/static/media/modal-title-back-06.fd13002b978433382b1f.png",
+    "static/media/Apis-Black.ttf": "/static/media/Apis-Black.224aea625f623cfde188.ttf",
+    "static/media/Apis-Bold.ttf": "/static/media/Apis-Bold.d80e481b616cec6f3d1a.ttf",
+    "static/media/Apis-Light.ttf": "/static/media/Apis-Light.1d017626d62b4883af33.ttf",
+    "static/media/modal-title-back-07.png": "/static/media/modal-title-back-07.34fdd7461874ec90e4c9.png",
+    "static/media/modal-title-back-05.png": "/static/media/modal-title-back-05.b0b679b6a38106fefb62.png",
+    "static/media/banner-dieta.png": "/static/media/banner-dieta.54e290d7770ed86916ea.png",
+    "static/media/bg-dash-med.png": "/static/media/bg-dash-med.6a84bc30f4b736e436ae.png",
+    "index.html": "/index.html",
+    "main.2f30fb26.css.map": "/static/css/main.2f30fb26.css.map",
+    "main.684906e5.js.map": "/static/js/main.684906e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f30fb26.css",
+    "static/js/main.684906e5.js"
+  ]
+}

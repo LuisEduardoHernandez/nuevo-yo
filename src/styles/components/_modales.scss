@@ -1,0 +1,272 @@
+.bg-home {
+    .modal_react {
+        overflow-y: scroll;
+        .aling-text {
+            max-width: 300px;
+        }
+    }
+    .modal_react__dialog {
+        max-width: 1000px;
+        .modal_react__dialog__button_close {
+            display: none;
+        }
+        #cookies {
+            background-color: white;
+            border-radius: 15px;
+        }
+        #modal-pacient-home {
+            form {
+                display: flex;
+                justify-content: space-evenly;
+                padding: 2rem 0;
+                .container-search {
+                    position: relative;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                }
+                input#inlineFormInputGroupUsername {
+                    max-width: 180px;
+                }
+            }
+        }
+    }
+    .content-switch {
+        a {
+            text-decoration: none;
+        }
+    }
+}
+.dashboard-container .modal_react {
+    overflow-y: scroll;
+    .video-grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        min-width: 900px;
+        video {
+            margin-top: 1rem;
+        }
+    }
+}
+.dashboard-container .modal_react__dialog__button_close {
+    display: none;
+}
+.modal-page {
+    display: flex;
+}
+
+.modal-content table {
+    margin: 0 auto;
+}
+
+.modal-content table thead {
+    background-color: #443280;
+    color: white;
+    font-weight: 100;
+}
+
+.modal-content table td,
+.modal-content table th {
+    font-weight: 100;
+}
+
+.modal-content table tr {
+    text-align: center;
+}
+
+.modal-content table thead th {
+    padding: 5px 33px;
+}
+
+.modal-content table tbody td {
+    color: #443280;
+    border: solid 1px #443280;
+    padding: 0 10px;
+}
+
+.modal-content sub {
+    bottom: 5px;
+}
+
+.modal-header {
+    padding-top: 6rem;
+}
+
+.modal-header h1 {
+    color: #443280;
+    font-weight: 700;
+}
+
+.modal-header h2 {
+    font-weight: 200;
+    color: #6b6b6b;
+}
+
+.bg-modal-obesity {
+    background: url(#{$url}/modal-title-back.jpeg) center;
+    background-size: cover;
+}
+
+.bg-modal-dieta {
+    background: url(#{$url}/banner-dieta.png) center;
+    background-size: cover;
+}
+
+.bg-modal-03 {
+    background: url(#{$url}/modal-title-back-03.png) center;
+    background-size: cover;
+}
+
+.bg-modal-04 {
+    background: url(#{$url}/modal-title-back-04.png) center;
+    background-size: cover;
+}
+
+.bg-modal-05 {
+    background: url(#{$url}/modal-title-back-05.png) center;
+    background-size: cover;
+}
+
+.bg-modal-06 {
+    background: url(#{$url}/modal-title-back-06.png) center;
+    background-size: cover;
+}
+
+.bg-modal-07 {
+    background: url(#{$url}/modal-title-back-07.png) center;
+    background-size: cover;
+}
+
+.modal-body h3 {
+    color: #443280;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+blockquote p {
+    font-size: 13px;
+    color: #757575;
+    margin: 0;
+    line-height: 1;
+}
+
+blockquote h4 {
+    font-size: 18px;
+    color: #757575;
+    line-height: 1;
+}
+
+.modal-footer button {
+    background-color: #443280;
+    margin: 0 auto;
+    max-width: 200px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 1rem;
+    padding: 3px 50px;
+}
+.condition-modal-li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.condition-modal-li p {
+    margin: 0;
+}
+
+.condition-modal-li img {
+    max-width: 40px;
+    margin-right: 1rem;
+}
+
+.plan-container-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan-container-item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 1rem;
+}
+
+.plan-container-item-c {
+    display: flex;
+}
+
+.plan-container-item-c p {
+    margin: 0;
+}
+
+.motiva-text p {
+    font-weight: 600;
+}
+
+.motiva-text ul {
+    padding-left: 1rem;
+    max-width: 300px;
+}
+
+.motiva-text ul li {
+    color: black;
+}
+
+.modal-social ul {
+    padding-left: 1rem;
+}
+
+.modal-social ul li {
+    color: black !important;
+}
+// Form registro
+.card-form {
+    .modal_react__dialog {
+        .modal_react__dialog__button_close {
+            display: none;
+        }
+        background-color: white;
+        border-radius: 15px;
+        padding: 1rem 3rem;
+    }
+    .btn-fb {
+        background-color: #4067ac;
+        color: white;
+        font-weight: 400;
+        font-size: inherit;
+        border-radius: 5px;
+        padding: 3px 25px;
+        border: none;
+    }
+}
+// Form login
+.form-login {
+    .modal_react__dialog{
+        padding: 0;
+        max-width: 500px;
+        .modal-title {
+            border-bottom: 1px solid #e1e1e1;
+            padding: 1rem 0;
+            text-align: left;
+            padding-left: 1.5rem;
+        }
+        .modal-body {
+            text-align: left;
+        }
+        &__children {
+            padding-top: 0;
+        }
+        &__button_close {
+            display: block !important;
+        }
+    }
+}
+// Dashboard paciente disponibilidad
+.dashboard-content-disponibility {
+    .modal_react__dialog {
+        background-color: white;
+        width: 600px;
+        padding: 0.5rem 0 1.5rem;
+    }
+}
